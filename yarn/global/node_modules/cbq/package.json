@@ -1,0 +1,28 @@
+{
+  "name": "cbq",
+  "version": "0.0.1",
+  "description": "Simple Callback Queue",
+  "author": "prdn <paolo@bitfinex.com> (https://bitfinex.com/)",
+  "keywords": [
+    "callback queue"
+  ],
+  "dependencies": {
+  },
+  "engine": {
+    "node": ">=6.0"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run unit",
+    "unit": "istanbul test ./node_modules/.bin/_mocha -- -R spec",
+    "lint": "standard"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitfinexcom/cbq-js.git"
+  }
+}
